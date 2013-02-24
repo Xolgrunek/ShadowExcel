@@ -1,5 +1,5 @@
 # Launcher for Project Junipero
-# version 0.0.1 20130220
+# version 0.0.2 20130224
 
 #TitleName
 
