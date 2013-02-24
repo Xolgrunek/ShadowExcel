@@ -1,15 +1,15 @@
 # Launcher for Project Junipero
 # version 0.0.1 20130220
 #temp clean
-proc clean {} {
-	for {set i 0} {$i <= 2147} {incr i} {
-		if {[winfo exists .msg$i]} {destroy .msg$i}
-		if {[winfo exists .label$i]} {destroy .label$i}
-		if {[winfo exists .entry$i]} {destroy .entry$i}
-		if {[winfo exists .button$i]} {destroy .button$i}
-	}
-}
-clean
+#proc clean {} {
+#	for {set i 0} {$i <= 2147} {incr i} {
+#		if {[winfo exists .msg$i]} {destroy .msg$i}
+#		if {[winfo exists .label$i]} {destroy .label$i}
+#		if {[winfo exists .entry$i]} {destroy .entry$i}
+#		if {[winfo exists .button$i]} {destroy .button$i}
+#	}
+#}
+#clean
 
 message .msg0 -text "Project Junipero"
 
