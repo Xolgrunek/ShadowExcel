@@ -22,7 +22,8 @@ set usernamedb username.tcl
 button .button0 -command { 
 	if  {$username == "testname"} && {$password == "test123"}
 	[source game.tcl]
-	else [-text "Hmm. You don't seem to have an account, or you entered your account details wrong."]
+	elseif {$username !== "testname"} [-text "Hmm. You don't seem to have an account, or you entered your account details wrong."]
+	else [-text "You broke it 
 } -text "Login"
 
 pack .msg0 .label0 .entry0 .label1 .entry1 .button0
